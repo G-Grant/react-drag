@@ -1,0 +1,20 @@
+.sort-container {
+    padding: 15px;
+    width: 250px;
+    margin: 20px auto;
+    border: 1px solid #000;
+    user-select: none;
+    li {
+        padding: 0 15px;
+        height: 25px;
+        line-height: 25px;
+        border: 1px solid #ccc;
+        color: #fff;
+        margin-top: -1px;
+        cursor: pointer;
+        &.dragged {
+            opacity: 0;
+            transition: opacity 0.1s;
+        }
+    }
+}

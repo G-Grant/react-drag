@@ -1,0 +1,45 @@
+.mouse-container {
+    width: 600px;
+    margin: 0 auto;
+    .target {
+        width: 400px;
+        height: 200px;
+        border: 1px solid #ccc;
+    }
+    .target,
+    .source {
+        display: flex;
+        align-items: center;
+        .user-info {
+            margin: 10px 10px 0 0;
+            padding: 5px;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 12px;
+            background-color: #ccc;
+            img {
+                width: 100px;
+                height: 100px;
+            }
+        }
+    }
+}
+
+.dragged-user-info.user-info {
+    position: absolute;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    background-color: #ccc;
+    img {
+        width: 100px;
+        height: 100px;
+    }
+}
